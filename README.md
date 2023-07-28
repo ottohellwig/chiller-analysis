@@ -80,11 +80,12 @@ The percentage operation activity is when the chiller is functioning and can be 
 ## kWR and COP
 The constant value (density of water @ a specific temperature) was assumed to be 997kg/m^3 and was used to calculate the kWR using the formula (Evans, 2017):
 
-<p align="center"> <u> kWR (kW) = m (Mass) * Cp (Specific Heat Capacity) * ΔT (Change in temperature). </p>
+_<p align="center"> _kWR (kW) = m (Mass) * Cₚ (Specific Heat Capacity) * ΔT (Change in temperature)_ </p>_
     
 The COP can be formulated using the equation (Langer, 2022): 
 
-<p align="center"> <u> Q/W or energy output/energy input. </p>
+_<p align="center"> Q/W or energy output/energy input </p>_
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## kWR Plots
