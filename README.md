@@ -3,7 +3,7 @@
 # Chiller Data Analysis
 
 ## Project Information
-The chiller data (FreezerData.csv) contains 
+The chiller data (FreezerData.csv) contains column variables _time, flow, temp and kWE_ (Kilowatt-electric). The _kWR_ is the kilowatts of refrigeration and the _COP_ is the coefficient of performance. These variables were calculated and joined to the dataset. This is a simple data cleaning and analysis with **basic analysis descriptions** of the findings. 
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -19,7 +19,7 @@ The chiller data (FreezerData.csv) contains
       </ul>
     </li>
     <li>
-      <a href="#kWE">kWe Analysis</a>
+      <a href="#kwe-analysis">kWe Analysis</a>
       <ul>
         <li><a href="#average-kwe-over-hour-of-day">Average kWE Over Hour of Day</a></li>
         <li><a href="#kwe-average-of-days-of-week">kWE Average of Days of Week</a></li>
@@ -27,18 +27,18 @@ The chiller data (FreezerData.csv) contains
       </ul>
     </li>
     <li>
-      <a href="#kWR-and-COP">kWR and COP Analysis</a>
+      <a href="#kwr-and-cop-analysis">kWR and COP Analysis</a>
       <ul>
-        <li><a href="#kwr-(kilowatts-of-refrigeration)-&-cop-coefficient-of-performance)">kWR (Kilowatts of Refrigeration) & COP (Coefficient of Performance)</a></li>
-        <li><a href="#installation">kWR Plots</a></li>
-        <li><a href="#installation">COP Plots</a></li>
+        <li><a href="#kwr-and-cop">kWR and COP</a></li>
+        <li><a href="#kwr-plots">kWR Plots</a></li>
+        <li><a href="#cop-plots">COP Plots</a></li>
       </ul>
     </li>
     <li><a href="#references">References</a></li>
   </ol>
 </details>
 
-# Operation Analysis
+## Operation Analysis
 
 ## Percentage Operation Activity
 The percentage operation activity is when the chiller is functioning and can be defined as the rows at which kWE is greater than 0 (kWE>0).
@@ -59,7 +59,7 @@ The percentage operation activity is when the chiller is functioning and can be 
 **Analysis:** The monthly operation activity presents a gradual positive correlation between the ascending series of months and the operating activity. From Janurary to September, the operating activity is moderately increasing with a decline from September to October and a recurve back to December. This may be due to the study semesters at the facilities increasing the foot traffic and applying more pressure on the chiller functioning. This decreases with October which is towards the end of the year and is when holidays become apparent.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# kWE Analysis
+## kWE Analysis
 
 ## Average kWE Over Hour of Day
 **Analysis:** The relationship between kWE and time is monotonic, with the kWE starting at approximately 40kW at the start and end of a day. The kWE increases from 06:00, peaks at 14:00 and then progressively decreases back to a steady state level. This correlation can be linked to the peak times of facility use at QUT facilities during the afternoon. Residual heat energy from the surrounding area may also contribute to the higher level of energy consumption between those times. 
@@ -75,9 +75,9 @@ The percentage operation activity is when the chiller is functioning and can be 
 **Analysis:** There is a monotonic correlation between the kWE and months in a year. The relationship mimics the shape of a parabola and indicates that the average energy input of the chiller is significantly lower from May to August with the minimum being between June and July. This may be due to holidays, maintenance of the chiller or other chillers have higher precedence in comparison to chiller 1 during those months. The kWE then increases back to a steady state level of about 70kW of kWE.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# kWR & COP Analysis
+## kWR and COP Analysis
 
-## kWR (Kilowatts of Refrigeration) & COP (Coefficient of Performance)
+## kWR and COP
 The constant value (density of water @ a specific temperature) was assumed to be 997kg/m^3 and was used to calculate the kWR using the formula (Evans, 2017):
 
 <p align="center"> <u> kWR (kW) = m (Mass) * Cp (Specific Heat Capacity) * ΔT (Change in temperature). </p>
