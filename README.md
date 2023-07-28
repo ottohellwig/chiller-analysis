@@ -26,7 +26,7 @@
     <li>
       <a href="#kWR-and-COP">kWR and COP Analysis</a>
       <ul>
-        <li><a href="#prerequisites">kWR (Kilowatts of Refrigeration) & COP (Coefficient of Performance)</a></li>
+        <li><a href="#kwr-(kilowatts-of-refrigeration)-&-cop-coefficient-of-performance)">kWR (Kilowatts of Refrigeration) & COP (Coefficient of Performance)</a></li>
         <li><a href="#installation">kWR Plots</a></li>
         <li><a href="#installation">COP Plots</a></li>
       </ul>
@@ -58,7 +58,7 @@ The percentage operation activity is when the chiller is functioning and can be 
 
 # kWE Analysis
 
-## Average kWE (Chiller Energy Consumption) Over Hour of Day
+## Average kWE Over Hour of Day
 **Analysis:** The relationship between kWE and time is monotonic, with the kWE starting at approximately 40kW at the start and end of a day. The kWE increases from 06:00, peaks at 14:00 and then progressively decreases back to a steady state level. This correlation can be linked to the peak times of facility use at QUT facilities during the afternoon. Residual heat energy from the surrounding area may also contribute to the higher level of energy consumption between those times. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
