@@ -18,9 +18,9 @@
     <li>
       <a href="#kWE">kWe Analysis</a>
       <ul>
-        <li><a href="#Average-kWE-Over-Hour-of-Day">Average kWE Over Hour of Day</a></li>
-        <li><a href="#built-with">kWE Average of Days of Week</a></li>
-        <li><a href="#built-with">kWE Average of Months in Year</a></li>
+        <li><a href="#average-kwe-over-hour-of-day">Average kWE Over Hour of Day</a></li>
+        <li><a href="#kwe-average-of-days-of-week">kWE Average of Days of Week</a></li>
+        <li><a href="#kwe-average-of-months-in-year">kWE Average of Months in Year</a></li>
       </ul>
     </li>
     <li>
