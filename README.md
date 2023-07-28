@@ -2,6 +2,9 @@
 
 # Chiller Data Analysis
 
+## Project Information
+The chiller data (FreezerData.csv) contains 
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
