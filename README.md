@@ -40,7 +40,7 @@ The chiller data (FreezerData.csv) contains column variables _time, flow, temp a
 
 ## Operation Analysis
 
-## Percentage Operation Activity
+### Percentage Operation Activity
 The percentage operation activity is when the chiller is functioning and can be defined as the rows at which kWE is greater than 0 (kWE>0).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,23 +61,23 @@ The percentage operation activity is when the chiller is functioning and can be 
 
 ## kWE Analysis
 
-## Average kWE Over Hour of Day
+### Average kWE Over Hour of Day
 **Analysis:** The relationship between kWE and time is monotonic, with the kWE starting at approximately 40kW at the start and end of a day. The kWE increases from 06:00, peaks at 14:00 and then progressively decreases back to a steady state level. This correlation can be linked to the peak times of facility use at QUT facilities during the afternoon. Residual heat energy from the surrounding area may also contribute to the higher level of energy consumption between those times. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## kWE Average of Days of Week
+### kWE Average of Days of Week
 **Analysis:** The average kWE over the days of the week are similar with a gradual decrease from Monday to Wednesday, then increasing to Friday and decreasing till Sunday. There is limited information which can be extracted from this data, the energy input has little differentiation from Monday to Sunday.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## kWE Average of Months in Year
+### kWE Average of Months in Year
 **Analysis:** There is a monotonic correlation between the kWE and months in a year. The relationship mimics the shape of a parabola and indicates that the average energy input of the chiller is significantly lower from May to August with the minimum being between June and July. This may be due to holidays, maintenance of the chiller or other chillers have higher precedence in comparison to chiller 1 during those months. The kWE then increases back to a steady state level of about 70kW of kWE.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## kWR and COP Analysis
 
-## kWR and COP
+### kWR and COP
 The constant value (density of water @ a specific temperature) was assumed to be 997kg/m^3 and was used to calculate the kWR using the formula (Evans, 2017):
 
 _<p align="center"> _kWR (kW) = m (Mass) * Cₚ (Specific Heat Capacity) * ΔT (Change in temperature)_ </p>_
@@ -88,14 +88,14 @@ _<p align="center"> Q/W or energy output/energy input </p>_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## kWR Plots
+### kWR Plots
 The kWR can be defined as the amount of heat energy transferred from the chiller to the condenser and is measured in Kilowatts. The average kWR was defined as the mean and was assigned to the y axis, time indices (Hours in a day, days in a week and months in a year) were assigned to the x axis. The error bars represent standard error which is defined as the standard deviation.
 
 **Analysis:** The average kWR and hours in a day have a monotonic correlation with an increasing curve from 06:00 to 20:00. This also has a positive correlation with the kWE values, as the kWE has mimics the kWR as they are codependent. The increased energy input results can also be seen in the increased usage of the refrigeration. Thus, the kWR increases from 06:00 and progressively decreases as there is less usage of energy/heat transfer.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## COP Plots
+### COP Plots
 The COP can be defined as the efficiency of heat energy transferral and is measured in dimensionless. The average COP was defined as the mean and was assigned to the y axis, time indices (Hours in a day, days in a week and months in a year) were assigned to the x axis. The error bars represent standard error which is defined as the standard deviation.
 
 **Analysis:** There is a positive nonlinear relationship between the kWE and kWR whereas the COP remains constant at a mean value of 9. The kWR has a steep incline from 14:30 onwards and peaks at 1000kWR and mimics the relationship of kWE.
