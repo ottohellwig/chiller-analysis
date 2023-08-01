@@ -45,17 +45,17 @@ The percentage operation activity is when the chiller is functioning and can be 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-##  Operation Activity Over Hours of Day
+###  Operation Activity Over Hours of Day
 **Analysis:** The operating activity and time have a monotic correlation, the line, despite being nonlinear does not increase nor decrease significantly. There is a gradual decrease in the operating activity from 01:00 to the minimum value at 11:00. The operating activity then increases until it reaches maximum operating activity. The operating activity is not an exact representation of the total as it only represents 1 chiller. Thus, the explanation behind the decreased operation activity may be a result of other chillers functioning as the current chiller may be used as a reserve.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Operation Activity Over Days of the Week
+### Operation Activity Over Days of the Week
 **Analysis:** There is a  positive correlation between ascending days of the week and operating activity. The weekend have the highest maximum values and this may be a result of facilities being used more frequently on these days. The results are predominantly inconclusive as there is limited information which can be inferred from the data.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Monthly Operation Activity
+### Monthly Operation Activity
 **Analysis:** The monthly operation activity presents a gradual positive correlation between the ascending series of months and the operating activity. From Janurary to September, the operating activity is moderately increasing with a decline from September to October and a recurve back to December. This may be due to the study semesters at the facilities increasing the foot traffic and applying more pressure on the chiller functioning. This decreases with October which is towards the end of the year and is when holidays become apparent.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
